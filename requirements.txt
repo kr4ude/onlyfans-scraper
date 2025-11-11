@@ -1,7 +1,7 @@
 requests
 streamlit
 pillow
-numpy
+numpy 
 fastapi
-python-dotenv
+python-dotenv 
 questionary
