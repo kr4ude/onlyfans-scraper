@@ -1,0 +1,7 @@
+requests
+streamlit
+pillow
+numpy
+fastapi
+python-dotenv
+questionary
