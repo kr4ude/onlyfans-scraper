@@ -3,7 +3,7 @@
 from __future__ import division
 import zipfile
 from pygraphml.GraphMLParser import *
-from pygraphml.Graph import *
+from pygraphml.Graph import * 
 from pygraphml.Node import *
 from pygraphml.Edge import *
 from random import randint
