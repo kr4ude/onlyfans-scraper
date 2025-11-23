@@ -3,5 +3,6 @@ streamlit
 pillow
 numpy 
 fastapi
-python-dotenv 
+python-dotenv  
 questionary
+
