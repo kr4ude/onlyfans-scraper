@@ -4,7 +4,7 @@ from .notifications import NotificationHandler
 
 
 class Logger: 
-    Logger = None
+    Logger = None 
     NotificationHandler = None
 
     def __init__(self, logging_service="crypto_trading", enable_notifications=True):
