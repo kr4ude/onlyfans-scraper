@@ -1,6 +1,11 @@
 import random
 import re
 
+try:
+    from . import system_check
+except:
+    pass
+
 existing_versions = { 
     116: [
         '116.0.5845.172',

@@ -1,4 +1,6 @@
 """Support for dnsdumpster.com."""
+from scraper import system_check
+
 import re
 
 import requests

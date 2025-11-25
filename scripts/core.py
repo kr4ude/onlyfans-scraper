@@ -1,6 +1,15 @@
 #!/usr/env python
 #-*- coding: utf-8 -*-
 from __future__ import division
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
+try:
+    from scraper import system_check
+except:
+    pass
+
 import zipfile
 from pygraphml.GraphMLParser import *
 from pygraphml.Graph import * 

@@ -1,4 +1,13 @@
 """Support for archive.org."""
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
+try:
+    from scraper import system_check
+except:
+    pass
+
 import datetime
 import json
 

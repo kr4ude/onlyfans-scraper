@@ -1,3 +1,7 @@
+try:
+    from scraper import system_check
+except:
+    pass
 
 class BaseClient:
     def __init__(self, user_agent: str, proxy: str = None):

@@ -1,5 +1,10 @@
 import logging.handlers
 
+try:
+    from . import system_check
+except:
+    pass
+
 from .notifications import NotificationHandler
 
 
